@@ -13,6 +13,7 @@ def index(request):
       return redirect("/login/")
    return render(request,'index.html')
 
+
 def loginuser(request):
    
    if request.method == "POST":
