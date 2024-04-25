@@ -1,0 +1,279 @@
+
+body{
+    background-color: #f3e8e2;
+
+}
+.headingw{
+    display: inline-block;
+    margin: 20px;
+    padding-left: 20PX;
+}
+.heading{
+    padding-left: 850px;
+    display: inline-block;
+    
+}
+.headingw .TASKIFY{
+    font-size: 50px;
+    font-weight: 900;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.heading nav{
+    font-weight: 900;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+   font-size: 20px;
+}
+.heading nav #ser{
+    padding-right: 40px;
+    text-decoration: none;
+}
+.heading nav #ser:hover{
+    text-decoration: underline;
+    color: #488f1d;
+}
+.heading nav #ab{
+    padding-right: 40px;
+    text-decoration: none;
+}
+.heading nav #ab:hover{
+    text-decoration: underline;
+    color: #488f1d;
+}
+.heading nav #con{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.heading nav #con:hover{
+    text-decoration: underline;
+    color: #488f1d;
+}
+.heading2 h1{
+    font-weight: 900;
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.heading2 h6{
+    font-size: 20px;
+    text-align: center;
+    color: #403434;
+}
+.heading3{
+    background-color: rgba(0, 0, 0, 0.886);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    
+}
+.heading3  #h{
+    text-decoration: underline;
+    font-size: 60px;
+}
+.servdiv #btn{
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.servdiv #btn:hover{
+    text-decoration: underline;
+    color: #488f1d;
+}
+.servdiv #one {
+    background-color: #fff;
+    color: black;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.servdiv #two {
+    background-color: #fff;
+    color: black;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.servdiv #three {
+    background-color: #fff;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+.heading4{
+    font-size: 20px;
+    margin-top: 150px;
+    font-weight: 900;
+    text-align: center;
+}
+.heading4 p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.social-icons{
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    
+}
+.social-icons #twit{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.social-icons #twit:hover{
+    text-decoration: underline;
+    color: skyblue;
+}
+.social-icons #insta{
+    padding-right: 20px;
+    text-decoration: none;
+}
+.social-icons #insta:hover{
+    text-decoration: underline;
+    color: rgb(227, 68, 92);
+}
+.social-icons #face{
+    padding-right: 20px;
+    text-decoration: none;
+    
+}
+.social-icons #face:hover{
+    text-decoration: underline;
+    color: skyblue;
+}
+footer{
+    font-size: 17px;
+}
+.ques{
+    font-weight: 500;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.886);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.ques .info{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.ques .para{
+    font-size: 16PX;
+    margin-top: 30px;
+    padding-left: 90px;
+    margin-bottom: 30px;
+}
+.abouts{
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.886);
+    color: #fff;
+    font-weight: 500;
+}
+.abouts h1{
+    font-size: 60px;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-decoration: underline;
+}
+.abouts #im{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.abouts p{
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 20px;
+    
+}
+.childabout{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 30px;
+    padding-top: 40px;
+    font-family: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.886);
+    color: #fff;
+    font-weight: 600;
+}
+.contact h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+.contact p{
+    font-size: 20px;
+}
+.contact #firstName{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-right: 20px;
+
+}
+.contact #lastName{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-right: 20px;
+
+}
+.contact #email{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-right: 20px;
+
+}
+.contact #mobile{
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+.contact h4{
+    padding-right:50px ;
+    font-size: 20px;
+    font-weight: 300;
+}
+.contact #text{
+    width: 300px;
+    height: 100px;
+}
+.contact #subbtn{
+    cursor: pointer;
+    font-size: 15px;
+}
+.contact #subbtn:hover{
+    text-decoration: underline;
+    color: #488f1d;
+}
+#image{
+    width: 800px;
+    height: 500px;
+    padding-left: 150px;
+}
+.contactimg{
+    display: flex;
+    justify-content: center;
+}

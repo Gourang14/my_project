@@ -1,0 +1,24 @@
+{% extends 'index.html'%}
+
+{% block title %}Contact{% endlock title %}
+
+{% block body%}
+
+<div class="contact" id="contact">
+    <h1 >GET IN TOUCH</h1>
+    <p>Send us a message and we'll get back to you as soon as we can.</p>
+    <div class="contactimg">
+     <form method = "post" action="/contact">
+        <h1>Contact Us </h1>
+        <input type="text" id="firstName" placeholder="First Name" required="">
+        <input type="text" id="lastName" placeholder="Last Name" required="">
+        <br><br>
+        <input type="email" id="email" placeholder="Email" required="">
+        <input type="text" id="mobile" placeholder="Mobile" required="">
+        <h4>Type Your Message Here...</h4>
+        <textarea required="" id="text"></textarea>
+        <button id="subbtn">Submit</button>
+     </form>
+     <img src="../static/contact.jpeg" id="image" alt="">
+    </div>
+    {% endblock body %}
