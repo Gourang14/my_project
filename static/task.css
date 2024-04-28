@@ -1,0 +1,125 @@
+body { 
+    background-color: #f2d7c9; 
+}
+.heading{
+}
+h1 {
+    font-size: 70px;
+    font-weight: 900;
+    padding-left: 560px;
+}
+ h2 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-left: 700px;    
+}
+
+.container {
+    border: 2px solid black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /*max-width: 400px; */
+    width: 35%;
+    margin: 0px auto;
+    padding: 20px; 
+    background:rgba(255, 255, 255, 0.539);
+    backdrop-filter: blur(1000px);
+    box-shadow: 0 0 10px rgb(0, 0, 0.2);
+    border-radius: 10px;
+    color: #040404;
+    
+}
+
+#task {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  rgba(224, 242, 224, 0.302);
+}
+#assigner {
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:  rgba(224, 242, 224, 0.284); 
+}
+
+#due-date {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color:   rgba(224, 242, 224, 0.249);
+}
+#button{
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    background-color:   rgba(224, 242, 224, 0.25);
+    text-decoration: none;
+    transition: 0.5s;
+}
+#button:hover{
+    text-decoration: underline;
+    color: rgb(156, 130, 44);
+}
+#data{
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 120px;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:   rgba(224, 242, 224, 0.233);
+    text-decoration: none;
+    transition: 0.5s;
+}
+#data:hover{
+    text-decoration: underline;
+    color: rgb(156, 130, 44);
+}
+#dataimage{
+    position: absolute;
+    top: 50%;
+    transform: translateY(450%);
+    left: 350px;
+  
+}
+.message {
+    display: none;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: green;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}

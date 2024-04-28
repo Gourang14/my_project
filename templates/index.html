@@ -40,8 +40,11 @@
             <section id="two">
                 <h1>Task Assigner</h1>
                 <p>Assign tasks to team members based on skills and availability</p>
-                <button id="btn">TRY NOW-></button>
+                <a href="task.html" id="taskAssigner"><button id="taskTryNowbtn">TRY NOW</button></a>
+                
             </section>
+    
+
             <section id="three">
                 <h1>Task Progress Tracking</h1>
                 <p>Monitor the progress of tasks in real-time and identify bottlenecks</p>
@@ -84,7 +87,7 @@
     <h1 >GET IN TOUCH</h1>
     <p>Send us a message and we'll get back to you as soon as we can.</p>
     <div class="contactimg">
-     <form method = "post" action="/contact">
+     <form method = "post" action="contact">{% csrf_token %}
         <h1>Contact Us </h1>
         <input type="text" id="firstName" placeholder="First Name" required="">
         <input type="text" id="lastName" placeholder="Last Name" required="">

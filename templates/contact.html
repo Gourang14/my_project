@@ -1,24 +1,30 @@
-{% extends 'index.html'%}
 
-{% block title %}Contact{% endlock title %}
+I'd be glad to provide a comprehensive response that incorporates the best aspects of previous responses, addresses potential issues, and offers additional enhancements for your Django contact form:
 
-{% block body%}
+Improved contact.html:
+
+HTML
+{% extends 'index.html' %}
+
+{% block title %}Contact{% endblock title %}
+
+{% block body %}
 
 <div class="contact" id="contact">
-    <h1 >GET IN TOUCH</h1>
-    <p>Send us a message and we'll get back to you as soon as we can.</p>
-    <div class="contactimg">
-     <form method = "post" action="/contact">
-        <h1>Contact Us </h1>
-        <input type="text" id="firstName" placeholder="First Name" required="">
-        <input type="text" id="lastName" placeholder="Last Name" required="">
-        <br><br>
-        <input type="email" id="email" placeholder="Email" required="">
-        <input type="text" id="mobile" placeholder="Mobile" required="">
-        <h4>Type Your Message Here...</h4>
-        <textarea required="" id="text"></textarea>
-        <button id="subbtn">Submit</button>
-     </form>
-     <img src="../static/contact.jpeg" id="image" alt="">
-    </div>
-    {% endblock body %}
+  <h1>GET IN TOUCH</h1>
+  <p>Send us a message and we'll get back to you as soon as we can.</p>
+  <div class="contactimg">
+    <form method="post" action="{% url 'contact' %}"> {% csrf_token %}
+      <h1>Contact Us</h1>
+      <input type="text" name="first_name" id="firstName" placeholder="First Name" required>
+      <input type="text" name="last_name" id="lastName" placeholder="Last Name" required>
+      <br><br>
+      <input type="email" name="email" id="email" placeholder="Email" required>
+      <input type="text" name="phone" id="mobile" placeholder="Mobile" required>
+      <h4>Type Your Message Here...</h4>
+      <textarea name="message" id="message" required></textarea> <button type="submit" id="subbtn">Submit</button> </form>
+    <img src="{% static 'contact.jpeg' %}" id="image" alt=""> </div>
+</div>
+
+{% endblock body %}
+

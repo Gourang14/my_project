@@ -131,3 +131,7 @@ STATICFILES_DIRS = [
     
 ]
 
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend', # Use Django's built-in authentication backend
+]
+APPEND_SLASH = False
