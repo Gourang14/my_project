@@ -30,7 +30,13 @@ admin.site.index_title = "Welcome to TASKIFY"
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('myapp.urls')),
-]
+<<<<<<< HEAD
+=======
+
     
+ 
+>>>>>>> 55cbde87b44a5a84dfc4c9cc5c7d0d229d5ea48a
+]
+
  
 
